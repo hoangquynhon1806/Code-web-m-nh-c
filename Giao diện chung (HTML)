@@ -11,7 +11,7 @@
   <header>
     <nav>
     <section class="logo">
-        <img src="images/logo-music.png" width = 100px height = 100px alt="Logo"> 
+        <a href="index.html"><img src="images/logo-music.png" width = 100px height = 100px alt="Logo"></a> 
         <br>
         <br>
     </section>
@@ -19,18 +19,35 @@
         <input type="text" id="search-text" placeholder="Tìm kiếm bài hát">
         <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
     </form>
-        <br> <hr> <br>
-      <a href="index.html"><i class="fa-solid fa-house"></i>Trang chủ</a>
-      <a href="music.html"><i class="fa-solid fa-music"></i>Nhạc của tôi</a>
-      <br> <hr> <br>
-      <a href="playlist.html"><i class="fa-solid fa-circle-play"></i>Playlist</a>
-      <a href="create-playlist.html"><i class="fa-solid fa-plus"></i>Tạo playlist</a>
-        <br> <hr> <br>
-      <a href="support.html"><i class="fa-sharp fa-solid fa-question"></i>Hỗ trợ</a> 
-      <a href="settings.html"><i class="fa-solid fa-gear"></i> Cài đặt</a> 
-      <a href="about.html"><i class=" fa-solid fa-info"></i>Giới thiệu</a> 
-        <br> <hr> <br>
-      <a href="login.html"><i class="fa-solid fa-right-to-bracket"></i> Đăng nhập</a>
-      <a href="signup.html"><i class="fa-solid fa-user-plus"></i>Đăng ký</a>
+    <br><hr><br>
+        <ul>
+            <li>
+                <a href="index.html"><i class="fa-solid fa-house"></i>Trang chủ</a>
+            </li> 
+            <li>
+                <a href="music.html"><i class="fa-solid fa-music"></i> Nhạc của tôi</a> <hr>
+            </li>
+            <li>
+                <a href="playlist.html"><i class="fa-solid fa-circle-play"></i>Playlist</a>
+            </li>
+            <li>
+                <a href="create-playlist.html"><i class="fa-solid fa-plus"></i>Tạo playlist</a> <hr>
+            </li>
+            <li>
+                <a href="support.html"><i class="fa-solid fa-circle-question"></i>Hỗ trợ</a>
+            </li>
+            <li>
+                <a href="settings.html"><i class="fa-solid fa-gear"></i> Cài đặt</a> 
+            </li>
+            <li>
+                <a href="about.html"><i class="fa-solid fa-circle-info"></i>Giới thiệu</a> <hr>
+            </li>
+            <li>
+                <a href="login.html"><i class="fa-solid fa-right-to-bracket"></i> Đăng nhập</a>
+            </li>
+            <li><a href="signup.html"><i class="fa-solid fa-user-plus"></i>Đăng ký</a> <hr>
+            </li>
+        </ul>
     </nav>
-    </header>
+  </header>
+</body>
