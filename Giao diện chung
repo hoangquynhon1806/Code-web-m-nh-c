@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang web nghe nhạc trực tuyến</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="plugins/fontawesome/css/all.css"></link>
+</head>
+<body>
+  <header>
+    <nav>
+    <section class="logo">
+        <img src="images/logo-music.png" width = 100px height = 100px alt="Logo"> 
+        <br>
+        <br>
+    </section>
+    <form action="" id="search-box">
+        <input type="text" id="search-text" placeholder="Tìm kiếm bài hát">
+        <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+        <br> <hr> <br>
+      <a href="index.html"><i class="fa-solid fa-house"></i>Trang chủ</a>
+      <a href="music.html"><i class="fa-solid fa-music"></i>Nhạc của tôi</a>
+      <br> <hr> <br>
+      <a href="playlist.html"><i class="fa-solid fa-circle-play"></i>Playlist</a>
+      <a href="create-playlist.html"><i class="fa-solid fa-plus"></i>Tạo playlist</a>
+        <br> <hr> <br>
+      <a href="support.html"><i class="fa-sharp fa-solid fa-question"></i>Hỗ trợ</a> 
+      <a href="settings.html"><i class="fa-solid fa-gear"></i> Cài đặt</a> 
+      <a href="about.html"><i class=" fa-solid fa-info"></i>Giới thiệu</a> 
+        <br> <hr> <br>
+      <a href="login.html"><i class="fa-solid fa-right-to-bracket"></i> Đăng nhập</a>
+      <a href="signup.html"><i class="fa-solid fa-user-plus"></i>Đăng ký</a>
+    </nav>
+    </header>
